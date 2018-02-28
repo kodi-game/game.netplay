@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="game.netplay"
+       name="Netplay Support"
+       version="0.0.1"
+       provider-name="Team Kodi">
+  <requires>@ADDON_DEPENDS@</requires>
+  <extension point="kodi.netplay"
+       library_@PLATFORM@="@LIBRARY_FILENAME@">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Netplay support for Kodi</summary>
+    <description lang="en_GB">This add-on provides netplay functionality, allowing games to be played over the internet.</description>
+    <license>GPLv2</license>
+    <platform>@PLATFORM@</platform>
+    <assets>
+    </assets>
+  </extension>
+</addon>

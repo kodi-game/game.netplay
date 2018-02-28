@@ -1,0 +1,21 @@
+# IDE ignorables
+.build
+.cproject
+.deps
+.libs
+.project
+.settings
+.classpath
+
+# CMake ignorables
+build
+Build
+
+# Add-on specific files
+game.netplay/*.so
+game.netplay/*.dll
+game.netplay/addon.xml
+
+# OSX ignorables
+.DS_Store
+._*
